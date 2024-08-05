@@ -1,6 +1,8 @@
 # Solid Gold library for Blitz Basic 2
 
-A Blitz Basic wrapper for a few functions from Frank Willie's game Solid Gold (https://aminet.net/package/game/jump/SolidGold_Source), particularly for direct floppy disk access. From my limited testing, this seems to work well in Blitz mode.
+A Blitz Basic wrapper for a few functions from Frank Willie's game Solid Gold (https://aminet.net/package/game/jump/SolidGold_Source), particularly for direct floppy disk access. From my limited testing, this seems to work in Blitz mode.
+
+This is not well tested, use at your own risk.
 
 Library number is $14, please consider recompiling the source (vasmm68k_mot -kick1hunks -Fhunkexe -nosym -o solidgold.obj solidgold.asm) if you need to change it.
 
